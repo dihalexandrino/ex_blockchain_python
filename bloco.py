@@ -1,3 +1,6 @@
+from datetime import datetime
+from hashlib import sha256
+
 class Bloco:
 
   def __init__(self, transactions, prev_hash):
